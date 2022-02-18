@@ -1,0 +1,11 @@
+server:
+  port: 8099
+spring:
+  datasource:
+    username: root
+    password: iqgMHM103118596
+    url: jdbc:mysql://120.76.194.227:3306/androidApi?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis:
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  type-aliases-package: com.ganfan.pojo
